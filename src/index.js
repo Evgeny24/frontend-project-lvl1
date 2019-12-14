@@ -2,9 +2,16 @@
 
 import readlineSync from 'readline-sync';
 
-const getUserName = () => {
+export const getUserName = () => {
   const userName = readlineSync.question('May I have your name? ');
   return userName;
 };
 
-export { getUserName as default };
+export const getRndInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+export const isEven = (number) => number % 2 === 0;
+
+export const getAnswer = (number) => {
+  const answer = readlineSync.question(`Question: ${number} `);
+  return answer;
+};
