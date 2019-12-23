@@ -3,4 +3,4 @@
 [![Build Status](https://travis-ci.org/Evgeny24/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/Evgeny24/frontend-project-lvl1)
 [![asciicast](https://asciinema.org/a/azhhETfNOOmp88LnszlItFlgM.svg)](https://asciinema.org/a/azhhETfNOOmp88LnszlItFlgM)
 [![asciicast](https://asciinema.org/a/H2qt83jhS92XdkTjcWt7OltTn.svg)](https://asciinema.org/a/H2qt83jhS92XdkTjcWt7OltTn)
-<script id="asciicast-jzjyjakN8zrk6DXQkXQGg6abg" src="https://asciinema.org/a/jzjyjakN8zrk6DXQkXQGg6abg.js" async></script>
+[![asciicast](https://asciinema.org/a/jzjyjakN8zrk6DXQkXQGg6abg.svg)](https://asciinema.org/a/jzjyjakN8zrk6DXQkXQGg6abg)
