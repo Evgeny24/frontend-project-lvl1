@@ -22,7 +22,8 @@ export const evenGame = (min, max) => {
   return [userAnswer, trueAnswer];
 };
 
-export const calcGame = (min, max, operator = ['+', '-', '*']) => {
+export const calcGame = (min, max) => {
+  const operator = ['+', '-', '*'];
   const number1 = getRndInteger(min, max);
   const number2 = getRndInteger(min, number1);
   const index = getRndInteger(0, operator.length - 1);
@@ -39,6 +40,26 @@ export const gcdGame = (min, max) => {
   console.log(`Question: ${number1} ${number2}`);
   const userAnswer = Number(readlineSync.question('Your answer: '));
   const trueAnswer = gcd(number1, number2);
+  return [userAnswer, trueAnswer];
+};
+
+export const progressionGame = (min, max1) => {
+  const len = 10;
+  const start = getRndInteger(min, max1);
+  const step = getRndInteger(min, len);
+  const index = getRndInteger(0, len - 1);
+  const arr = [start];
+  for (let i = 0; i < len - 1; i += 1) {
+    arr.push(arr[arr.length - 1] + step);
+  }
+  const trueAnswer = arr[index];
+  arr[index] = '..';
+  let expression = 'Question: ';
+  for (let i = 0; i < arr.length; i += 1) {
+    expression += `${arr[i]} `;
+  }
+  console.log(expression);
+  const userAnswer = Number(readlineSync.question('Your answer: '));
   return [userAnswer, trueAnswer];
 };
 
