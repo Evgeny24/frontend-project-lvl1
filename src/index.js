@@ -63,6 +63,20 @@ export const progressionGame = (min, max1) => {
   return [userAnswer, trueAnswer];
 };
 
+export const primeGame = (min, max) => {
+  const number = getRndInteger(min, max);
+  let trueAnswer = 'yes';
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      trueAnswer = 'no';
+      break;
+    }
+  }
+  console.log(`Question: ${number}`);
+  const userAnswer = readlineSync.question('Your answer: ');
+  return [userAnswer, trueAnswer];
+};
+
 export const playGame = (getData, min, max, userName) => {
   let i = 0;
   while (i < 3) {
