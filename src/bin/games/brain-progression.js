@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 import {
-  getUserName, progressionGame, playGame,
-} from '..';
+  getUserName, progressionGame,
+} from '../..';
+import playGame from '../engine';
 
 const randomMin = 1;
 const randomMax = 50;

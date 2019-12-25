@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 import {
-  getUserName, gcdGame, playGame,
-} from '..';
+  getUserName, gcdGame,
+} from '../..';
+import playGame from '../engine';
 
 const randomMin = 1;
 const randomMax = 100;
