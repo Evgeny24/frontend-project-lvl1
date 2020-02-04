@@ -17,18 +17,18 @@ To use Brain-Games as an application install it globally:
 | Progression game | What number is missing in the progression?                   |`brain-progression` |
 | Prime game       | Answer "yes" if given number is prime. Otherwise answer "no" |`brain-prime`       |
 
-### Install and use brain-even game:
+### Install and use of Even game:
 [![asciicast](https://asciinema.org/a/8dyAAQDQQmR50Iz32lItrn9su.svg)](https://asciinema.org/a/8dyAAQDQQmR50Iz32lItrn9su)
 
-### Install and use brain-calc game:
+### Install and use of Calc game:
 [![asciicast](https://asciinema.org/a/TlyIHof9LC7kwUuLNj2H7DEDf.svg)](https://asciinema.org/a/TlyIHof9LC7kwUuLNj2H7DEDf)
 
-### Install and use brain-gcd game:
+### Install and use of GCD game:
 [![asciicast](https://asciinema.org/a/sjqgZrbbNhuFufWXJbJBA7WXj.svg)](https://asciinema.org/a/sjqgZrbbNhuFufWXJbJBA7WXj)
 
-### Install and use brain-progression game:
+### Install and use of Progression game:
 [![asciicast](https://asciinema.org/a/nZEPErQpBbQylJhPpo4AkljyF.svg)](https://asciinema.org/a/nZEPErQpBbQylJhPpo4AkljyF)
 
-### Install and use brain-prime game:
+### Install and use of Prime game:
 [![asciicast](https://asciinema.org/a/WY7QmdlIv2q0R7egzcDLHc9S5.svg)](https://asciinema.org/a/WY7QmdlIv2q0R7egzcDLHc9S5)
 
