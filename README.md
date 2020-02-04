@@ -4,12 +4,13 @@
 ### Install
 ***
 To use Brain-Games as an application install it globally:
+
 `sudo npm install -g frontend-project-lvl1`
 
 ### Usage
 ***
 | Game name        | Game question (problem to solve)                             | CLI command        |
----
+|---               |---                                                           |---                 |
 | Even game        | Answer "yes" if the number is even, otherwise answer "no"    |`brain-even`        |
 | Calc game        | What is the result of the expression?                        |`brain-calc`        |
 | GCD game         | Find the greatest common divisor of given numbers            |`brain-gcd`         |
