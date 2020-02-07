@@ -14,10 +14,10 @@ const getData = () => {
   const correctAnswer = currentItem + index * step;
   let gameQuestion = '';
   for (let i = 0; i < len; i += 1) {
-    gameQuestion = `${gameQuestion}${i === index ? replacement : currentItem.toString()}${i < len - 1 ? ' ' : ''}`;
+    gameQuestion = `${gameQuestion}${i === index ? replacement : currentItem} `;
     currentItem += step;
   }
-  return [gameQuestion, correctAnswer.toString()];
+  return [gameQuestion.trim(), correctAnswer.toString()];
 };
 
 const progressionGame = () => {

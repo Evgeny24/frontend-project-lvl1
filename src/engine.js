@@ -15,15 +15,13 @@ const playGame = (message, getData) => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer === correctAnswer) {
       console.log('Correct!');
-      if (i === numberOfRounds) {
-        console.log(`Congratulations, ${userName}!`);
-      }
     } else {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
       console.log(`Let's try again, ${userName}.`);
-      break;
+      return;
     }
   }
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default playGame;

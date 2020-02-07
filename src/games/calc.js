@@ -19,7 +19,7 @@ const calculate = (number1, number2, operator) => {
       result = number1 * number2;
       break;
     default:
-      result = null;
+      return null;
   }
   return result;
 };

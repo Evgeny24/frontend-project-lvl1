@@ -8,10 +8,10 @@ const message = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (num) => {
   if (num < 2) { return false; }
   let divisor = 2;
-  while ((divisor ** 2 <= num) && (num % divisor !== 0)) {
+  while ((divisor <= Math.sqrt(num)) && (num % divisor !== 0)) {
     divisor += 1;
   }
-  return divisor ** 2 > num;
+  return divisor > Math.sqrt(num);
 };
 
 const getData = () => {
